@@ -31,7 +31,7 @@ export default function Home() {
 
         <div className="mt-6">
           <a
-            href="https://drive.google.com/file/d/1eywgf3chRORJTlc42e2cFJsJCVn3dalE/view?usp=sharing"
+            href="https://drive.google.com/file/d/1c3ruUa1vKO3TurUdSpqEey7rPNjD410T/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
