@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Henri Junior Houphouët - Portfolio  
 
-## Getting Started
+This is my personal portfolio website, built with **Next.js 14**, showcasing my work, projects, blog posts, and conferences I have organized or participated in. The goal of this portfolio is to highlight my expertise as a **Full-Stack Developer & Cybersecurity Evangelist**.
 
-First, run the development server:
+## 📌 Live Demo  
+➡️ [Visit My Portfolio](http://live-link.com)
+
+---
+
+## 📂 Project Structure  
+
+This project follows the **Next.js App Router** paradigm.
+
+📂 portfoliohenry/ ├── 📁 app/ # Next.js App Router pages
+│ ├── layout.js # Root layout component
+│ ├── page.js # Home Page
+│ ├── 📁 work/ # Work Experience Page
+│ ├── 📁 projects/ # Projects Page
+│ ├── 📁 posts/ # Blog Posts Page
+│ ├── 📁 conferences/ # Conferences Page
+│ ├── 📁 contact/ # Contact Page
+├── 📁 components/ # Reusable UI components
+│ ├── 📁 ui/ # UI Components (Navbar, Footer, Buttons, etc.)
+│ ├── 📁 sections/ # Different page sections
+├── 📁 public/ # Static assets (images, icons, etc.)
+├── 📁 styles/ # Global styles
+├── 📄 package.json # Dependencies & Scripts
+└── 📄 README.md # Project Documentation
+
+
+---
+
+## 🚀 Getting Started  
+
+### 1️⃣ Clone the repository:
 
 ```bash
-npm run dev
+git clone https://github.com/hackinf0/portfoliohenry.git
+cd portfoliohenry
+
+npm install
 # or
-yarn dev
+yarn install
 # or
-pnpm dev
-# or
-bun dev
-```
+pnpm install
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🛠 Tech Stack
+Technology	Description
+✅ Next.js 14	React framework for server-side rendering.
+✅ React 19	Latest React features.
+✅ Tailwind CSS	For beautiful and responsive UI design.
+✅ Lucide React	Modern icons for UI.
+✅ Vercel	Deployment platform.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📄 Pages Overview
+🏠 Home Page
 
-## Learn More
+    Introduction, quick bio, and featured sections.
 
-To learn more about Next.js, take a look at the following resources:
+💼 Work Experience
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    A timeline of my professional journey, from freelancing to full-time roles.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📂 Projects
 
-## Deploy on Vercel
+    A showcase of my best projects, including open-source contributions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📝 Blog Posts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    Technical articles, tutorials, and cybersecurity insights.
+
+🎤 Conferences
+
+    Events I have organized or participated in.
+
+🌎 Deployment
+
+This project is deployed using Vercel for seamless and fast hosting.
+
+npm run build
+npm run start
+
+🤝 Contribution
+
+Contributions are welcome! If you’d like to improve this project:
+
+    Fork the repository.
+    Create a new branch (feature-branch).
+    Commit your changes.
+    Push the branch and create a Pull Request.
+
+📜 License
+
+This project is MIT Licensed.
+
+📬 Contact
+📧 Email: henrijuniorhouphouet@gmail.com
