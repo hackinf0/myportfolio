@@ -46,8 +46,7 @@ pnpm install
 
 🛠 Tech Stack
 Technology	Description
-✅ Next.js 14	React framework for server-side rendering.
-✅ React 19	Latest React features.
+✅ Next.js 14	React framework and React 19.
 ✅ Tailwind CSS	For beautiful and responsive UI design.
 ✅ Lucide React	Modern icons for UI.
 ✅ Vercel	Deployment platform.
