@@ -21,6 +21,10 @@ export default function Posts() {
       date: "2022-05-14",
       link: "https://youtu.be/cbgD7_xIdvM?si=-7E_RNc0XPIOdZcF",
     },
+    { title: "J’ai enquêté sur une attaque WordPress discrète",
+      date : "2025-12-03"
+      link:"https://medium.com/@hackinfo21/from-frontend-clues-to-backend-backdoors-a-deep-dive-into-a-wordpress-infection-b9c1ac630426"
+    }
   ]
 
   return (
