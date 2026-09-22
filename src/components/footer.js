@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-secondary text-secondary-foreground py-6 mt-auto">
       <div className="max-w-3xl mx-auto text-center space-y-4"> 
-        <h2 className="text-lg font-semibold">Henri Junior Houphouët</h2>
+        <h2 className="text-lg font-semibold">Hackinfo</h2>
  
         <div className="flex justify-center space-x-6">
           <a
@@ -42,7 +42,7 @@ export default function Footer() {
         </div>
  
         <p className="text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Henri Junior Houphouët. All rights reserved.
+          &copy; 2025 Hackinfo. All rights reserved.
         </p>
       </div>
     </footer>
