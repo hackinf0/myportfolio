@@ -9,10 +9,10 @@ export default function Home() {
   const [showMore, setShowMore] = useState(false)
 
   return (
-    <main className="flex flex-col items-center min-h-screen bg-gray-900 text-white"> 
-      <section className="text-center py-16 px-6"> 
+    <main className="flex flex-col items-center min-h-screen bg-background text-foreground">
+      <section className="text-center py-16 px-6">
         <div className="flex justify-center mb-6">
-          <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-gray-700 shadow-lg">
+          <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-border shadow-lg">
             <Image
               src="/me.png"
               alt="Henry Joel"
@@ -25,7 +25,7 @@ export default function Home() {
         </div>
  
         <h1 className="text-5xl font-bold mb-4">Hello, I&apos;m Henri 👋</h1>
-        <p className="text-lg text-gray-300 max-w-xl mx-auto">
+        <p className="text-lg text-muted-foreground max-w-xl mx-auto">
           Full-Stack Developer, Cybersecurity Evangelist.
         </p>
 
@@ -44,21 +44,21 @@ export default function Home() {
           </a>
         </div>
  
-        <div className="mt-6 max-w-2xl mx-auto space-y-4 text-gray-400 text-sm md:text-xl leading-relaxed text-left">
+        <div className="mt-6 max-w-2xl mx-auto space-y-4 text-muted-foreground text-sm md:text-xl leading-relaxed text-left">
           <p>
-            I am a <span className="text-gray-300">full-stack developer</span>{" "}
-            currently living in <span className="text-gray-300">Italy </span>
-            with over <span className="text-gray-300">five years</span> of
-            experience, primarily working with startups. 
+            I am a <span className="text-foreground">full-stack developer</span>{" "}
+            currently living in <span className="text-foreground">Italy </span>
+            with over <span className="text-foreground">five years</span> of
+            experience, primarily working with startups.
             <button
               onClick={() => setShowMore(!showMore)}
-              className="ml-2 text-gray-400 hover:text-gray-300 transition cursor-pointer"
+              className="ml-2 text-muted-foreground hover:text-foreground transition cursor-pointer"
               aria-label="More info"
             >
               <Info size={16} />
-            </button> 
+            </button>
             {showMore && (
-              <span className="text-green-400 transition-opacity duration-300">
+              <span className="text-green-500 transition-opacity duration-300">
                 {" "}
                 I started coding in 2016 on my Samsung tablet, building small
                 web pages for clients. This eventually led to my first part-time
@@ -73,7 +73,7 @@ export default function Home() {
               href="https://youtube.com/hackinfo"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-400 underline hover:text-blue-300 transition"
+              className="text-blue-500 underline hover:text-blue-400 transition"
             >
               Hackinfo
             </a>
@@ -82,22 +82,22 @@ export default function Home() {
 
           <p>
             My team and I ranked among the
-            <span className="text-gray-300">
+            <span className="text-foreground">
               {" "}
               top 10 hacking teams in West Africa
             </span>{" "}
             at
-            <span className="bg-gray-800 px-2 py-1 rounded-md text-gray-300 ml-1">
+            <span className="bg-secondary px-2 py-1 rounded-md text-secondary-foreground ml-1">
               HackerLab Africa 2022
             </span>
-            , and we were <span className="text-gray-300">runners-up</span> in
+            , and we were <span className="text-foreground">runners-up</span> in
             the
             <br />
-            <span className="bg-gray-800 px-2 py-1 rounded-md text-gray-300 ml-1">
+            <span className="bg-secondary px-2 py-1 rounded-md text-secondary-foreground ml-1">
               CAF CTF Côte d’Ivoire 2023
             </span>
             , securing the title of the{" "}
-            <span className="text-gray-300">
+            <span className="text-foreground">
               second-best team in Ivory Coast
             </span>
             .

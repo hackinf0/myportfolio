@@ -2,7 +2,7 @@ import { Youtube, Facebook, Linkedin, Github } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-gray-300 py-6 mt-auto">  
+    <footer className="bg-secondary text-secondary-foreground py-6 mt-auto">
       <div className="max-w-3xl mx-auto text-center space-y-4"> 
         <h2 className="text-lg font-semibold">Henri Junior Houphouët</h2>
  
@@ -41,7 +41,7 @@ export default function Footer() {
           </a>
         </div>
  
-        <p className="text-sm text-gray-400">
+        <p className="text-sm text-muted-foreground">
           &copy; {new Date().getFullYear()} Henri Junior Houphouët. All rights reserved.
         </p>
       </div>

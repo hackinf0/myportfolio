@@ -70,30 +70,30 @@ export default function Work() {
   ]
 
   return (
-    <div className="bg-gray-900 min-h-screen">
-      <main className="max-w-2xl mx-auto  px-6 py-12 text-white"> 
+    <div className="bg-background min-h-screen">
+      <main className="max-w-2xl mx-auto  px-6 py-12 text-foreground">
         <h1 className="text-3xl font-bold mb-4">Employment History</h1>
- 
-        <p className="text-gray-400 mb-8 leading-relaxed">
+
+        <p className="text-muted-foreground mb-8 leading-relaxed">
           I’ve had the opportunity to work with incredible teams, primarily
           collaborating with startups and independent clients. Here’s a brief
           overview of my professional experience.
         </p>
- 
+
         <div className="space-y-8">
           {jobs.map((job, index) => (
             <div
               key={index}
-              className="bg-gray-800 p-6 rounded-lg shadow-md border border-gray-700"
-            > 
-              <div className="flex justify-between text-sm text-gray-400">
+              className="bg-card p-6 rounded-lg shadow-md border border-border"
+            >
+              <div className="flex justify-between text-sm text-muted-foreground">
                 <span>{job.location}</span>
                 <span>{job.date}</span>
               </div>
- 
+
               <h2 className="text-xl font-semibold mt-2">
                 {job.position}{" "}
-                <span className="text-gray-400">at {job.company}</span>
+                <span className="text-muted-foreground">at {job.company}</span>
               </h2>
  
               {/* {job.badge && (
@@ -104,14 +104,14 @@ export default function Work() {
                 </span>
               )} */}
  
-              <p className="text-gray-400 mt-4">{job.description}</p>
-              <p className="text-gray-400 mt-2">{job.extra}</p>
- 
+              <p className="text-muted-foreground mt-4">{job.description}</p>
+              <p className="text-muted-foreground mt-2">{job.extra}</p>
+
               <div className="flex flex-wrap gap-2 mt-4">
                 {job.skills.map((skill, i) => (
                   <span
                     key={i}
-                    className="bg-gray-700 px-3 py-1 rounded-md text-gray-300 text-sm"
+                    className="bg-secondary px-3 py-1 rounded-md text-secondary-foreground text-sm"
                   >
                     {skill}
                   </span>

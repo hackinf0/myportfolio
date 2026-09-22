@@ -28,28 +28,28 @@ export default function Posts() {
   ]
 
   return (
-    <div className="bg-gray-900 min-h-screen">
-      <main className="max-w-2xl mx-auto px-6 py-12 text-white"> 
+    <div className="bg-background min-h-screen">
+      <main className="max-w-2xl mx-auto px-6 py-12 text-foreground">
         <h1 className="text-3xl font-bold mb-4">Blog</h1>
- 
-        <p className="text-gray-400 mb-8 leading-relaxed">
+
+        <p className="text-muted-foreground mb-8 leading-relaxed">
           I don’t write often, but I regularly share my insights through videos.
           I’ve also explored other content formats, including text and graphics.
         </p>
- 
+
         <ul className="space-y-3">
           {posts.map((post, index) => (
             <li key={index}>
-              <a href={post.link} className="flex items-center space-x-2 group"> 
-                <span className="text-gray-400 group-hover:text-yellow-500">
+              <a href={post.link} className="flex items-center space-x-2 group">
+                <span className="text-muted-foreground group-hover:text-yellow-500">
                   ▪
                 </span>
- 
+
                 <span className="group-hover:text-yellow-500 group-hover:underline transition">
                   {post.title}
                 </span>
 
-                <span className="text-gray-500 text-sm">({post.date})</span>
+                <span className="text-muted-foreground text-sm">({post.date})</span>
               </a>
             </li>
           ))}

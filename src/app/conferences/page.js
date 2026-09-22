@@ -18,21 +18,21 @@ export default function Conference() {
   ];
 
   return (
-    <div className="bg-gray-900 min-h-screen">
-      <main className="max-w-2xl mx-auto px-6 py-12 text-white">
+    <div className="bg-background min-h-screen">
+      <main className="max-w-2xl mx-auto px-6 py-12 text-foreground">
         <h1 className="text-3xl font-bold mb-4">Conferences</h1>
-        <p className="text-gray-400 mb-8 leading-relaxed">
+        <p className="text-muted-foreground mb-8 leading-relaxed">
           Here are some of the conferences I have organized and participated in.
         </p>
 
         <div className="space-y-8">
           {conferences.map((conf, index) => (
-            <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-md border border-gray-700">
+            <div key={index} className="bg-card p-6 rounded-lg shadow-md border border-border">
               <div className="flex justify-between">
                 <h2 className="text-xl font-semibold">{conf.title}</h2>
-                <span className="text-gray-400">{conf.date}</span>
+                <span className="text-muted-foreground">{conf.date}</span>
               </div>
-              <p className="text-gray-400 mt-2">{conf.description}</p>
+              <p className="text-muted-foreground mt-2">{conf.description}</p>
 
               
               <div className="py-3  ">
